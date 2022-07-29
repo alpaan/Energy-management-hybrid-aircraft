@@ -1,6 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+  
+  <img src= https://github.com/martindoff/Energy-management-hybrid-aircraft/blob/main/Pic1.jpg alt="Logo" width="600" height="300">
   <p align="center">
    Predictive energy management for hybrid-electric aircraft with parallel propulsion system using convex optimisation.
     <br />  
