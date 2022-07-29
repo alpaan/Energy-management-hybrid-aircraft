@@ -56,26 +56,20 @@ The theory behind the algorithms is presented in the paper: "Predictive energy m
 
 ### Prerequisites
 
-You need to install the following:
+You need to install CVX for MATLAB:
 
 * [cvx](http://cvxr.com/cvx/download/)
-* [mosek](https://www.mosek.com/downloads/)
 
-In order to use mosek, you will need a license. Look [here] (https://www.mosek.com/products/academic-licenses/) to set it up. 
-
-### Installation
+### Instructions 
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/martindoff/DC-TMPC.git
+   git clone https://github.com/martindoff/Energy-management-hybrid-aircraft.git
    ```
-2. Go to directory 
-   ```sh
-   cd DC-TMPC-master
-   ```
-3. Run the program
-   ```sh
-   python3 main.py
+2. Copy the directory into your MATLAB path
+3. Run the script
+   ```matlab
+   main
    ```
 
 <!-- ROADMAP -->
