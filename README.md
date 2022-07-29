@@ -63,11 +63,11 @@ You need to install CVX for MATLAB:
    git clone https://github.com/martindoff/Energy-management-hybrid-aircraft.git
    ```
 2. Copy the directory into your MATLAB path
-3. Run the script
+3. Select solver type and optionally change the parameters in the main.m file.
+4. Run the script
    ```matlab
    main
    ```
-
 <!-- CONTACT -->
 ## Contact
 
