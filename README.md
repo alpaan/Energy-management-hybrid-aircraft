@@ -1,9 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-   <img src="https://github.com/martindoff/Energy-management-hybrid-aircraft/Picture1.png" alt="Logo" width="400" height="300">
   <p align="center">
-   Predictive energy management for hybrid-electric aircraft with parallel propulsion system using convex optimisation. 
+   Predictive energy management for hybrid-electric aircraft with parallel propulsion system using convex optimisation.
     <br />  
   </p>
 </p>
@@ -39,12 +38,11 @@
 
 The following case study considers the problem of computing the optimal power split for a hybrid-electric aircraft with a parallel propulsion system (gas turbine and electric motor) using convex optimisation. The goal is to obtain the optimal ratio between electric and gas turbine usage in order to meet the drive power demand. We consider solving the problem with 1) the generic convex programming package CVX, 2) the Alternating Direction Method of Multipliers (ADMM), 3) a heuristics (CDCS).
 
-The theory behind the algorithms is presented in the paper: "Predictive energy management 
-% for hybrid electric aircraft propulsion systems" by Martin Doff-Sotta, Mark Cannon and Marko Bacic. 
+The theory behind the algorithms is presented in the paper: "Predictive energy management for hybrid electric aircraft propulsion systems" by Martin Doff-Sotta, Mark Cannon and Marko Bacic. 
 
 ### Built With
 
-* Python 3
+* MATLAB
 * CVX
 * Mosek
 
@@ -57,17 +55,9 @@ The theory behind the algorithms is presented in the paper: "Predictive energy m
 ### Prerequisites
 
 You need to install the following:
-* numpy
-* scipy
-* matplotlib
-* [cvxpy](https://www.cvxpy.org/install/index.html)
+
+* [cvx](http://cvxr.com/cvx/download/)
 * [mosek](https://www.mosek.com/downloads/)
-
-Run the following command to install all modules at once
-
-   ```sh
-   pip3 install numpy scipy matplotlib cvxpy mosek
-   ```
 
 In order to use mosek, you will need a license. Look [here] (https://www.mosek.com/products/academic-licenses/) to set it up. 
 
